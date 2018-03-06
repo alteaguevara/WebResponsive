@@ -100,6 +100,17 @@ h6 {
     line-height: 120%;
 }
 
+#negrita{
+    font-weight: bold;
+}
+
+#cursiva{
+    font-style: italic;
+}
+
+#nombre-escuela{
+    color: #299982;
+}
 /*********************** CABECERA *******************/
 
 header {
