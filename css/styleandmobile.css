@@ -117,6 +117,7 @@ header {
     border-bottom: 4px solid #1f1f1f;
     height: 80px;
     box-shadow: 0px -2px 12px #1f1f1f;
+    z-index: 1;
 }
 
 /**** Objeto 1 del header (titulo y ico-top)*/
