@@ -1,0 +1,66 @@
+Referentes
+
+/////////////////////////////////////////////
+El esquema de mi web 1
+Header
+	Título: h-obj-titulo
+	Buscador: h-obj-buscador
+		Formulario: buscar-form
+			Img-lupa
+			Imput-buscar
+		 Símbolo carrito: carrito;
+
+	Nav: h-obj-nav
+		Libros: nav-obj
+		Best Sellers: nav-obj
+		Revistas: nav-obj
+    Símbolo carrito: carrito;
+
+Cuerpo
+	Novedades: novedades
+		New-obj-1
+		New-obj-2
+		New-obj-3
+
+	El libro de la semana: libro-semana
+		Texto: texto-semana		
+		Imagen: img-semana
+
+	Cuadro de tienda: cuadro-tienda
+		Caja del artículo: caja-articulo
+			Imagen del artículo: img-articulo
+			Texto descriptivo del artículo: texto-articulo
+				Nombre del artículo: nombre-articulo
+				Precio del artículo: precio-articulo
+	Anuncio: anuncio
+		Imagen: img-anuncio
+
+	Suscríbete: subscribe
+		Texto: texto-subscribe
+		Formulario: subscribe-form
+				Label: Mantente al día de nuestras novedades y consigue descuentos
+				Imput-subscribe
+				Botón: botón-subscribe
+	Por qué comprar aquí: why
+		Why-obj-1
+		Why-obj-2
+		Why-obj-3
+		Why-obj-4
+Footer
+	info
+		Eslogan: eslogan
+		Dirección	
+	Redes sociales: caja-social
+	Logos de patrocinadores
+
+///////////////////////
+
+Pag detalle
+
+Header_El mismo Header
+Caja de texto de compra: cuadro-texto-compra
+    Artículo compra: compra-articulo
+        Imagen: img-compra
+        Texto descriptivo: compra-texto
+    Precio: texto-precio
+

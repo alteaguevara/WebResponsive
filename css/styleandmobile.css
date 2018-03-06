@@ -1,0 +1,577 @@
+/*
+Fuentes
+*/
+
+/*
+Paleta de colores
+Buscar colores: https://www.webpagefx.com/web-design/color-picker/
+
+Morado: #261829
+Gris: #1f1f1f
+turquesa: #43D8BA
+beige: #eddc9a
+lavanda: #dcb7ff
+salmon: #FF7E4F
+*/
+
+/*********************** ESTILOS GENERALES Y PARA MOVIL ****************************/
+
+/**/
+
+/**/
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f1f1f;
+    border-radius: 10px;
+    border: 3px solid #4c4b4b;
+    transition: all 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #43D8BA;
+    border: 3px solid #299982;
+    transition: all 1s;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/***************** TEXTOS COMUNES *******************/
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #1f1f1f;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    line-height: 120%;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    line-height: 120%;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #1f1f1f;
+    line-height: 120%;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 120%;
+}
+
+/*********************** CABECERA *******************/
+
+header {
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    transition: background 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0%;
+    padding-top: 25px;
+    border-bottom: 4px solid #1f1f1f;
+    height: 80px;
+    box-shadow: 0px -2px 12px #1f1f1f;
+}
+
+/**** Objeto 1 del header (titulo y ico-top)*/
+
+#titulo-web {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+#titulo-web a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s;
+}
+
+#titulo-web :hover {
+    color: #43D8BA;
+    text-decoration: none;
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+/****** Objeto 1 del header (Título + ico-top) */
+
+.h-obj-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#ico-top {
+    margin: auto;
+    visibility: visible;
+}
+
+/****** Objeto 2 del header (nav) */
+
+.h-obj-2-header {
+    visibility: hidden;
+    flex-direction: row;
+}
+
+.nav-obj a {
+    background-color: white;
+    border: 1px solid #1f1f1f;
+    color: #1f1f1f;
+    margin: 0px 10px 0px 10px;
+    font-family: "Josefin Sans", sans-serif;
+    transition: all 0.3s;
+    padding: 9px 9px 9px 9px;
+    margin: 0 6px 0 6px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.nav-obj :hover {
+    background-color: #1f1f1f;
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s;
+    padding: 9px 9px 9px 9px;
+    margin: 0 6px 0 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/****** Objeto 3 del header (buscar y ico-right) */
+
+.h-obj-3-header {
+    visibility: hidden;
+}
+
+/*********************** CUERPO DE LA PAGINA  *********************/
+
+body {
+    background-color: white;
+    width: 100%;
+}
+
+.cuerpo {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.m {
+    /* para poner a objetos con margen*/
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/********** NAV DEL BODY */
+
+.header-body {
+    margin: 50px 0px 20px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-obj-2-body nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.h-obj-3-body ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+#buscar {
+    margin: 5px 15px 0 0;
+    width: 130px;
+}
+
+#lupa {
+    margin-top: 2px;
+    display: inline-block;
+    justify-content: center;
+}
+
+/************************/
+
+/* NOVEDADES*/
+
+.novedades {
+    background-color: #1f1f1f;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-obj {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.new-obj :hover {
+    transition: all 0.5s;
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+}
+
+.new-obj img {
+    width: 90%;
+    transition: all 0.3s;
+}
+
+/* LIBRO DE LA SEMANA */
+
+.libro-semana {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.libro-semana ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-right: -20px;
+}
+
+.texto-semana {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 110px 0px 30px 30px;
+    border-top: 4px solid #1f1f1f;
+    padding-right: 0;
+    width: 85%;
+}
+
+.img-semana {
+    width: 100%;
+}
+
+.img-semana img {
+    width: 100%;
+    display: block;
+    margin: 0px;
+}
+
+#boton-comprar-pc {
+    margin-top: 0;
+    height: 0;
+    margin-bottom: 0;
+    visibility: hidden;
+}
+
+#boton-comprar-tm {
+    color: #1F1F1F;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    transition: all 0.7s;
+    margin: -20px;
+}
+
+/* TIENDA */
+
+#margen-cuadro-tienda {
+    background-color: #1f1f1f;
+    margin-top: 30px;
+    box-shadow: 0px -2px 12px #1f1f1f;
+    margin-bottom: 10px;
+}
+
+.cuadro-tienda {
+    background-color: #1F1F1F;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.caja-articulo {
+    background-color: #1f1f1f;
+    padding: 0px 15px 20px 15px;
+    margin-bottom: 50px;
+}
+
+.img-articulo {
+    background-color: #1f1f1f;
+    height: 180px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-articulo img {
+    height: 180px;
+    width: auto;
+}
+
+.texto-articulo {
+    /* Caja de texto */
+    background-color: #1f1f1f;
+    height: 80px;
+    padding: 10px;
+}
+
+.texto-articulo a {
+    text-decoration: none;
+    transition: all 0.25s;
+}
+
+.nombre-articulo :hover {
+    color: #43D8BA;
+    text-decoration: none;
+    font-size: 21px;
+    transition: all 0.5s;
+}
+
+.nombre-articulo p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.precio-articulo {
+    text-align: end;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: end;
+}
+
+/* ANUNCIO*/
+
+.anuncio {
+    background-color: white;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 40px;
+}
+
+.slider {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: -800%;
+    }
+}
+
+#rebajas {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+
+/* SUBSCRIBE*/
+
+.subscribe {
+    background: linear-gradient(#68ffe0, #43D8BA);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+#texto-sub {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=password],
+select {
+    height: 20px;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #6d6d6d;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: 1.5px solid #1F1F1F;
+    margin: 50px;
+    padding: 10px 58px 10px 58px;
+    color: #1F1F1F;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    transition: all 0.7s;
+}
+
+input[type=submit]:hover {
+    background-color: #1f1f1f;
+    color: white;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f1f1f;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer li {
+    margin: 20px;
+}
+
+.mini-li3 {
+    display: flex;
+    justify-content: inline;
+    justify-content: space-between;
+}
+
+.mini-li3 li {
+    margin: 5px;
+    align-content: center;
+}
+
+#no-iconos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+}
+
+#si-iconos {
+    width: 60%;
+    margin: 10px;
+}
+
+#direccion :hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 41px;
+    color: #43D8BA;
+    line-height: 120%;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+
+#palabras {
+    margin: 60px;
+}
+
+.mini-li3 a {
+    text-decoration: none;
+    transition: all 0.25s;
+}
+
+.mini-li3 :hover {
+    color: #43D8BA;
+    text-decoration: none;
+    font-size: 21px;
+    transition: all 0.5s;
+}
+
+#marca {
+    background-color: #1f1f1f;
+    color: rgb(146, 146, 146);
+    margin: 0px 10px 0px 10px;
+    font-family: "Josefin Sans", sans-serif;
+    transition: all 0.3s;
+    padding: 9px 9px 9px 9px;
+    font-size: 9px;
+    text-decoration: none;
+    width: 100%;
+}

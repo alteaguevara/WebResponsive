@@ -1,0 +1,59 @@
+@media (min-width: 1024px) {
+    
+    /* compra */
+    .caja-compra {
+        display: flex;
+        flex-direction: row;
+    }
+    .galeria {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-image: url("../images/precio.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0;
+        margin: 0px;
+    }
+    .galeria ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite alternate linear;
+    }
+    .galeria li {
+        width: 100%;
+        list-style: none;
+    }
+    .galeria img {
+        top: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .texto-compra {
+        padding: 30px;
+        padding-top: 80px;
+        border-top: 4px solid #1f1f1f;
+        border-bottom: 4px solid #1f1f1f;
+        margin-left: 30px;
+        width: 120%;
+    }
+    p {
+        line-height: 120%;
+    }
+    #ver {
+        margin-top: 60px;
+    }
+    /* WHY */
+    .why ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .reason {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: #1f1f1f;
+        line-height: 250%;
+    }
+}

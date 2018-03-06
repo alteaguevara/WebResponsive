@@ -1,0 +1,156 @@
+@media (min-width: 424px) {
+  /* TABLET*/
+
+  /******* CABECERA *****/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 0%;
+    padding: 15px;
+    padding-bottom: -20px;
+    width: 100%;
+  }
+  .nav-obj {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  /****** Objeto 1 del header (Título + ico-top) */
+  .h-obj-1 {
+    order: 1;
+  }
+  #ico-top {
+    visibility: visible;
+  }
+  /****** Objeto 2 del header (nav) */
+  .h-obj-2-header {
+    visibility: hidden;
+  }
+  .h-obj-2-header nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /****** Objeto 3 del header (buscar y ico-right) */
+  .h-obj-3-header {
+    visibility: hidden;
+    order: 2;
+  }
+  .h-obj-3-header ul {
+    display: flex;
+    flex-direction: row;
+  }
+  #buscar-form {
+    visibility: hidden;
+  }
+  /*
+  /******* CUERPO */
+  body {
+    background-color: white;
+    width: 100%;
+  }
+  .cuerpo {
+    margin-top: 70px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .header-body {
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+  }
+  /* NOVEDADES */
+  .novedades {
+    display: flex;
+    flex-direction: row;
+  }
+  .new-obj {
+    width: 100%;
+    margin: 5px 10px 15px 10px;
+  }
+  .new-obj img {
+    width: 100%;
+    height: 100%;
+  }
+  /* LIBRO SEMANA*/
+  .libro-semana {
+    display: flex;
+    justify-content: center;
+  }
+  .libro-semana ul {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .texto-semana {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 110px 30px 30px 30px;
+  }
+  .img-semana {
+    width: 105%;
+    height: 200px;
+    display: block;
+    padding-top: -100px;
+    margin-left: -30px;
+  }
+  .img-semana img {
+    width: 100%;
+  }
+  #boton-comprar-tm {
+    color: #1F1F1F;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    transition: all 0.7s;
+  }
+  /* CUADRO TIENDA*/
+  .cuadro-tienda {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 60px solid white;
+  }
+  .caja-articulo {
+    background-color: #1f1f1f;
+    padding: 0px 15px 20px 15px;
+    margin-bottom: 50px;
+  }
+  .img-articulo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .img-articulo img {
+    height: 200px;
+    width: auto;
+  }
+  .texto-articulo {
+    /* Caja de texto */
+    height: 80px;
+    padding: 20px;
+  }
+  /* ANUNCIO */
+  #rebajas {
+    font-size: 150px;
+  }
+  .slider ul {
+    width: 1000%;
+    animation: cambio 15s infinite alternate linear;
+  }
+  @keyframes cambio {
+    0% {
+      margin-left: 100%;
+    }
+    100% {
+      margin-left: -400%;
+    }
+  }
+  /* SUBSCRIBE */
+  /* FOOTER */
+  #no-iconos {
+    display: flex;
+    flex-direction: row;
+  }
+}

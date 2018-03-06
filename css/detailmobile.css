@@ -1,0 +1,172 @@
+#h-detail {
+    width: 100%;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CAJA COMPRA */
+
+.caja-compra {
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.galeria ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.galeria li {
+    width: 100%;
+    list-style: none;
+}
+
+.galeria img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.texto-compra {
+    padding: 30px;
+    padding-top: 20px;
+    border-top: 4px solid white;
+    margin-left: 0px;
+    width: 85%;
+}
+
+p{
+    line-height: 120%;
+}
+
+.anadir-carrito{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.anadir-carrito div{
+    margin: 10px;
+}
+
+#boton-detalle input{
+    margin: 0px;
+}
+
+input[type=number],
+select {
+    height: 44px;
+    width: 80px;
+    padding: 12px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #6d6d6d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#boton-anadir-carrito{
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+#p48{
+    padding-top: 5px;
+    visibility: hidden;
+    font-weight: bold;
+}
+
+#p49{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    visibility: visible;
+    font-weight: bold;
+}
+#ver{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #1f1f1f;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+#ver :hover{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    color: #43D8BA;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+/* WHY */
+
+.why {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.why li {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+}
+
+.why img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 7px 7px 7px;
+}
+
+.reason {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #1f1f1f;
+    line-height: 250%;
+    font-weight: bold;
+}

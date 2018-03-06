@@ -1,0 +1,58 @@
+@media (min-width: 424px) {
+    header{
+        z-index: 4;
+    }
+    /* compra  */
+    .caja-compra {
+        display: flex;
+        flex-direction: column;
+    }
+    .galeria {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        height: 200px;
+    }
+    .galeria ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite alternate linear;
+    }
+    .galeria li {
+        width: 100%;
+        list-style: none;
+    }
+    .galeria img {
+        position: relative;
+        top: -120px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .texto-compra {
+        padding: 30px;
+        padding-top: 40px;
+        border-top: 4px solid white;
+        margin-left: 0px;
+        width: 93%;
+    }
+    p {
+        line-height: 120%;
+    }
+
+    #p48{
+        visibility: visible;
+    }
+
+    #p49{
+        height: 0px;
+        padding: 0px;
+        visibility: hidden;
+    }
+    /* why*/
+    .why ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

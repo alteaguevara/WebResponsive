@@ -1,0 +1,161 @@
+@media (min-width: 1025px) {
+  /************* CABECERA */
+  /****** Objeto 2 del header (nav) */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 0%;
+    padding: 10px;
+    width: 100%;
+  }
+  #titulo-web {
+    font-size: 25px;
+  }
+  #titulo-web :hover {
+    font-size: 27px;
+  }
+  /****** Objeto 2 del header (nav) */
+  header nav {
+    margin-top: -10px;
+  }
+  #ico-top {
+    visibility: hidden;
+  }
+  .h-obj-2-header {
+    visibility: visible;
+  }
+  .h-obj-2-header nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-obj a {
+    font-size: 16px;
+  }
+  .nav-obj :hover {
+    font-size: 16px;
+  }
+  /****** Objeto 3 del header (buscar y ico-right) */
+  .h-obj-3-header {
+    visibility: visible;
+  }
+  #buscar-form {
+    visibility: visible;
+  }
+  /**************** CUERPO */
+  body {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cuerpo {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .header-body {
+    visibility: hidden;
+  }
+  /* NOVEDADES*/
+  .novedades {
+    display: flex;
+    flex-direction: row;
+  }
+  .new-obj {
+    width: 100%;
+    margin: 30px 30px 40px 30px;
+  }
+  .new-obj img {
+    width: 100%;
+    height: 100%;
+  }
+  /* LIBRO SEMANA*/
+  .libro-semana {
+    display: flex;
+    justify-content: center;
+  }
+  .libro-semana ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .texto-semana {
+    width: 45.5%;
+    margin-right: 30px;
+  }
+  .img-semana {
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    margin: 0px;
+    margin-left: 0px;
+  }
+  .img-semana img {
+    width: 100%;
+    margin: 0px;
+  }
+  #boton-comprar-pc {
+    margin-top: 60px;
+    visibility: visible;
+  }
+  #boton-comprar-tm {
+    margin-top: 0;
+    height: 0;
+    margin-bottom: 0;
+    visibility: hidden;
+  }
+  /* CUADRO TIENDA*/
+  .cuadro-tienda {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 82%;
+    margin-top: 30px;
+    padding: 30px 15px 30px 15px;
+    border-top: 1px solid #1f1f1f;
+  }
+  .caja-articulo {
+    margin-bottom: 40px;
+  }
+  .img-articulo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .img-articulo img {
+    height: 350px;
+    width: auto;
+  }
+  .texto-articulo {
+    /* Caja de texto */
+    height: 80px;
+    padding: 20px;
+  }
+  /* ANUNCIO */
+  #rebajas {
+    font-size: 200px;
+  }
+  .slider ul {
+    width: 1000%;
+    animation: cambio 25s infinite alternate linear;
+  }
+  @keyframes cambio {
+    0% {
+      margin-left: 100%;
+    }
+    100% {
+      margin-left: -300%;
+    }
+  }
+  /* SUBSCRIBE*/
+  .subscribe {
+    display: flex;
+    justify-content: center;
+  }
+  #texto-sub {
+    margin-top: 30px;
+  }
+  input[type=submit] {
+    /* boton*/
+    padding: 10px 160px 10px 160px;
+  }
+}
